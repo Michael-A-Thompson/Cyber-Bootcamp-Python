@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+# This is a comment the character at the front isn't a"Hashtag" it's a Sharp symbol, which is why line one is a shebang!
+
+# I wanted colored text and read about it here (https://pypi.org/project/termcolor/) it was fun!
+# Since I wanted color from termcolor I had to import the module and specify what parts I wanted to use.
+from termcolor import colored
+
+# Good old print("Hello World") but in red text!
+print(colored("Hello WOrld", 'red'))
+
+# A variable called "whats__your_name set to the value of the input provided by the user 
+# when asked "What is your name? ". ***Don't forget the space at the end!***
+whats_your_name = input ("WHat is your name? ")
+
+# Magic! "My name is " in Green. a variable called 'whats_your_name' in Yellow. and " I will be a Python Master" in Blue 
+print(colored("My name is ", 'green'),  colored(whats_your_name, 'yellow'),  colored(" I will be a Python Master", 'blue')) # Looks complicated...
+# you mean I gotta put a space at the front Also?! D'oh!
